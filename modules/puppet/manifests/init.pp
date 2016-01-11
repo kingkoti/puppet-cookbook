@@ -23,3 +23,9 @@ class puppet {
 		hour	=> 	'*',
 	}
 }
+
+class testmod {
+	file { '/tmp/testhello':
+		content => "test hello from Hello test\n",
+	}
+}
